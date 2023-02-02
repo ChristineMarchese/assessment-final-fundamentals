@@ -88,20 +88,21 @@ return highest;
  *  getAverageIMDBRating(movies);
  *  //> 7.76
  */
-// function getAverageIMDBRating(movies) {
-// // declared rating = 0
-// let rating = 0;
-// // if movies array = 0 , return 0
-// if(movies.length === 0) {
-// return 0;
-// }
-// // loop through movies array
-// for(let movie of movies) {
-//   rating += movie.imdbRating;
-// }
-// // need average for IMDB for all movies/ length gives the # of movies
-//  return rating / movies.length;
-//  }
+function getAverageIMDBRating(movies) {
+// declared rating = 0
+let rating = 0;
+// if movies array = 0 , return 0
+if(movies.length === 0) {
+return 0;
+}
+// loop through movies array
+for(let movie of movies) {
+
+}
+// need average for IMDB for all movies/ length gives the # of movies
+ return rating / movies.length;
+ }
+
 
 /**
  * countByRating()
@@ -114,8 +115,8 @@ return highest;
  *  countByRating(movies);
  *  //> { G: 3, PG: 7 }
  */
-// function countByRating(movies) {
-// // if movie array is empty return {}
+function countByRating(movies) {
+// if (movie array is empty return {}
 // if(movies.length === 0) {
 //   return {};
 // } 
@@ -132,7 +133,7 @@ return highest;
 //   }
 // }
 // return count;
-// }
+}
 
 /**
  * findById()
@@ -219,7 +220,7 @@ return highest;
       }
     ];
  */
-function getAllMoviesReleasedAtOrBeforeYear(movies, year) {
+// function getAllMoviesReleasedAtOrBeforeYear(movies, year) {
 // let arr = [];
 
 // for(let movie of movies) {
