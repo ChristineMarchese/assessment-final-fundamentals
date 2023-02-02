@@ -149,21 +149,22 @@ for(let movie of movies) {
       // Toy Story 4
     };
  */
-// function findById(movies, id) {
-// // if array is empty return null
+function findById(movies, id) {
+// if array is empty return null
 
-// // if movies length = 0; return null
-// if(movies.length === 0 ) {
-//   return null;
-// }
-// // if imdbID = id return the movie with matching imdbID
-// for (let movie of movies) {
-//   if(movie.imdbID === id) {
-//     return movie;
-//   }
-// }
-//  return null;
-// }
+// if movies length = 0; return null
+if(movies.length === 0 ) {
+  return null;
+}
+// if imdbID = id return the movie with matching imdbID
+for (let movie of movies) {
+  if(movie.imdbID === id) {
+    return movie;
+  }
+}
+ return null;
+}
+
 
 /**
  * filterByGenre()
