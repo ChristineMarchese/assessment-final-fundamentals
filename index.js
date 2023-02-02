@@ -186,18 +186,19 @@ for (let movie of movies) {
  *  filterByGenre(movies, "Horror")
  *  //> []
  */
-// function filterByGenre(movies, genre) {
+function filterByGenre(movies, genre) {
 
-// let filter = [];
+let filter = [];
 
-// if(movies.length === 0) {
-//   return filter;
+if(movies.length === 0) {
+  return filter;
 
 
-//   }
+  }
 
-// return filter;
-// }
+return filter;
+}
+
 
 /**
  * getAllMoviesReleasedAtOrBeforeYear()
