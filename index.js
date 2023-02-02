@@ -116,23 +116,23 @@ for(let movie of movies) {
  *  //> { G: 3, PG: 7 }
  */
 function countByRating(movies) {
-// if (movie array is empty return {}
-// if(movies.length === 0) {
-//   return {};
-// } 
-// // delclare {}
-// let count = {};
-// for(let movie of movies) {
-//   // if not a key
-//   if(!count[movie.rated]) {
-//     count[movie.rated] = 1;
-//   } else {
-//     // value of the key 
-//     // Returns an object where the keys are movie ratings and the values are the number of movies in the array with that rating.
-//     count[movie.rated] += 1;
-//   }
-// }
-// return count;
+//  if (movie array is empty return {}
+ if(movies.length === 0) {
+  return {};
+} 
+// delclare {}
+let count = {};
+for(let movie of movies) {
+  // if not a key
+  if(!count[movie.rated]) {
+    count[movie.rated] = 1;
+  } else {
+    // value of the key 
+    // Returns an object where the keys are movie ratings and the values are the number of movies in the array with that rating.
+    count[movie.rated] += 1;
+  }
+}
+ return count;
 }
 
 /**
